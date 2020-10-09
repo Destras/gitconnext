@@ -1,0 +1,54 @@
+.unProjecto__container{
+    margin-top: 2%;
+    height: 70vh ;
+    background-color: white;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: #e1f4f3;
+    padding: 3%;
+    }
+    .projecto__info__container{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+.projecto__img__container img{
+    width: 70%;
+    flex-grow: 4;
+    flex-shrink: 4;
+}
+.projecto__img__container{
+    flex-grow: 4;
+    flex-shrink: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.projecto__text__container{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+.palabras__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.acitos{
+    color: #222831;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    .projecto__img__container img {
+        display: none;
+    }
+    .projecto__text__container{
+        width: 100%;
+    }
+}

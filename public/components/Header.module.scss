@@ -1,0 +1,17 @@
+.header__container {
+	position: fixed;
+	width: 100vw;
+	background-color: #222831;
+	height: 40px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.header__container p {
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+	margin-left: 5%;
+	color: #dddddd;
+}

@@ -1,0 +1,26 @@
+.infoPersonal__container{
+    margin-top: 20px;
+    grid-area: infoPersonal;
+    margin-bottom: 2%;
+}
+.infoPersonal__info__container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.myName{
+    font-size: 18px;
+    font-weight: 900;
+}
+.palabras__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 600px) {
+    .infoPersonal__info__container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 3%;
+    }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif, arial;
+  }
+
+.contenedor__todo{
+  background-repeat: repeat;
+  display: grid;
+  grid-template-columns: auto 70% auto;
+  grid-template-rows: 40px auto auto auto 25vh ;
+  grid-template-areas:
+      'header header header'
+      ' . infoPersonal .'
+      '. projectosContainer .'
+      '. experienciaContainer .'
+      'footer footer footer'
+  ;
+}
+.main__container{
+  position: relative;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+  .contenedor__todo {
+      grid-template-columns: auto 90% auto;
+  }
+}
